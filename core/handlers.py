@@ -5,4 +5,3 @@ def start(bot, update):
 def config_calendar(bot, update):
     message_config = 'Configure a integração com o Google Calendar pra eu poder te ajudar, envie o TOKEN de autenticação para a API'
     update.message.reply_text(message_config)
-
